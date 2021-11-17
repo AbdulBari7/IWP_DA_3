@@ -1,0 +1,89 @@
+body {
+ background-color: #94f8a9;
+ }
+
+ h2 {
+ text-align: center;
+ margin: 1em 0 0.5em 0;
+ color: #343434;
+ font-weight: normal;
+ font-family: 'Ultra', sans-serif;
+ font-size: 36px;
+ line-height: 42px;
+ text-transform: uppercase;
+ text-shadow: 0 2px white, 0 3px #777;
+ }
+
+ .pwd__inputdiv {
+ text-align: center;
+ }
+
+ .input__pwd {
+ width: 40%;
+ padding: 1rem;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ border: none;
+ outline: none;
+ text-align: center;
+ }
+
+ .input__btn {
+ background-color: #86f0de;
+ border: none;
+ font-family: 'Ultra', sans-serif;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 12px;
+ }
+
+ .pwd__bar {
+ position: relative;
+ height: .3rem;
+ }
+
+ .pwd__name {
+ font-family: 'Ultra', sans-serif;
+ text-transform: uppercase;
+ }
+
+ .pwd__results {
+ border: 1px solid black;
+ font-family: 'Ultra', sans-serif;
+ padding: 2rem 2rem 2rem 2rem;
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+ margin: 2rem 2rem;
+ margin-bottom: 1rem;
+ }
+
+ .results__h3 {
+ text-align: center;
+ margin: 1em 0 0.5em 0;
+ color: #343434;
+ font-weight: normal;
+ font-family: 'Ultra', sans-serif;
+ font-size: 18px;
+ line-height: 42px;
+ text-transform: uppercase;
+ text-shadow: 0 1px white, 0 1.5px #777;
+ }
+
+ .pwd__New {
+ text-align: center;
+ }
+
+ .neww__pwd {
+ text-align: center;
+ margin: 1em 0 0.5em 0;
+ color: #343434;
+ font-weight: normal;
+ font-family: 'Ultra', sans-serif;
+ font-size: 14px;
+ line-height: 42px;
+ text-shadow: 0 1px white, 0 1.5px #777;
+ }

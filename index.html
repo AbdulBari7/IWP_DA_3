@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Password Strength Meter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> Password Strength Calculator </h2>
+
+    <div class="pwd__inputdiv">
+        <input class="input__pwd" type="text" autofocus
+id="pwdinput" placeholder="Please enter your password here"><br><br>
+        <button onclick="testFun()" class="input__btn">Check</
+button><br><br>
+        <h3 class="results__h3"> Password Results</h3>
+    </div>
+    <div class="pwd__results">
+        <span class="pwd__name" id="pwdtitle"></span>
+        <span class="pwd__bar" id="pwdbar"></span>
+        <span class="pwd__number" id="pwdnumber"></span>
+    </div>
+
+    <div class="old__Pwd" id="pwdOld">
+        <h3 class="results__h3"> Entered Password</h3>
+        <p class="neww__pwd" id="pwd-enter"
+onmouseover="mouseOver()" onmouseout="mouseOut()"></p>
+    </div>
+
+    <div class="pwd__New" id="pwdNew">
+        <h3 class="results__h3"> Random Recommended Generated Password</h3>
+        <p class="neww__pwd" id="newpwd"></p>
+    </div>
+    <script src="script.js">
+     </script>
+</body>
+</html>
